@@ -3,17 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hotel Mirasole International</title>
+  <title>Hôtel Plaza Athénée</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style-destinazioni.css">
+  <link rel="stylesheet" href="stile-condiviso.css">
+  <link rel="stylesheet" href="style-prova.css">
   <script src="https://kit.fontawesome.com/ad59da1c36.js" crossorigin="anonymous"></script>
-  <script> var imgl=document.getElementById("imgl");
-    imgl.onclick=function(){
-      imgl.classList.toggle("zoom");
-    };
-  </script>
 </head>
 <body>
+
+  <!-- barra di navigazione -->
+  <nav class="navbar navbar-expand-lg $blue-100" id="nav-bar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="prova.html">Vacanza.com</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#destiinazioni">Destinazioni</a>
+          <a class="nav-link" href="#promozioni">Promozioni</a>
+          <a class="nav-link" href="#">Villaggi</a>
+          <a class="nav-link" href="#hotel">Offerte</a>
+        </div>
+      </div>
+    </div>
+    <!-- login  -->
+    <div class="utente">
+      <a href="log-in.html">
+      <i class="fa-sharp fa-solid fa-bars"></i>
+      <i class="fa-solid fa-user"></i>
+      </a>
+
+    </div>
+  </nav>
+
     <h1>Hôtel Plaza Athénée</h1>
 
     <h4>Parigi - Francia</h4>
@@ -21,68 +45,130 @@
     <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h5><i class="fa-solid fa-spa"></i> Spa & centro benessere</h5>
-            <h5><i class="fa-solid fa-water-ladder"></i> Piscina</h5>
+            <h5><i class="fa-solid fa-square-parking"></i>Servizio di parcheggio</h5>
+            <h5><i class="fa-solid fa-martini-glass"></i>Bar/lounge</h5>
           </div>
           <div class="col-md-4">
             <h5><i class="fa-solid fa-wifi"></i> Connessione WiFi gratuita</h5>
-            <h5><i class="fa-solid fa-store"></i> Negozi</h5>
+            <h5><i class="fa-solid fa-bell-concierge"></i> Servizio in camera</h5>
           </div>
           <div class="col-md-4">
-            <h5><i class="fa-solid fa-mug-saucer"></i> Prima colazione</h5>
+            <h5><i class="fa-solid fa-paw"></i>Animali domestici ammessi</h5>
             <h5><i class="fa-solid fa-dumbbell"></i> Palestra</h5>
           </div>
         </div>
       </div>
 
-    <div class="container">
-        <h3>Prenota il tuo soggiorno</h3>
-        <form>
-        <div class="form-group">
-            <label for="data_arrivo">Data di arrivo:</label>
-            <input type="date" class="form-control" id="data_arrivo">
-        </div>
-        <div class="form-group">
-            <label for="data_partenza">Data di partenza:</label>
-            <input type="date" class="form-control" id="data_partenza">
-        </div>
-        <div class="form-group">
-            <label for="numero_ospiti">Numero di ospiti:</label>
-            <select class="form-control" id="numero_ospiti">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-            </select>
-        </div>
-        <button type="submit" class="btn btn-primary">Prenota</button>
-        </form>
+    <main>
+    <div class="bg">
+        <div class="containerDes">
+            <h3>Prenota il tuo soggiorno</h3>
+            <form>
+            <div class="form-group">
+                <label for="data_arrivo">Data di arrivo:</label>
+                <input type="date" class="form-control" id="data_arrivo">
+            </div>
+            <div class="form-group">
+                <label for="data_partenza">Data di partenza:</label>
+                <input type="date" class="form-control" id="data_partenza">
+            </div>
+            <div class="form-group">
+                <label for="numero_ospiti">Numero di ospiti:</label>
+                <select class="form-control" id="numero_ospiti">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                </select>
+            </div>
+          <button type="submit" class="btn btn-primary">Prenota</button>
+          </form>
+      </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNVQ8vc" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <img src="Img/myconian1.jpg" alt="Immagine 1" class="img-fluid d-block" id="imgl">
+    <div id="carouselAutoDes" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Img/plaza1.jpg" class="d-block w-100" alt="Facciata dell'Hotel" height="600px">
           </div>
-          <div class="col-md-3">
-            <img src="Img/myconian2.jpg" alt="Immagine 2" class="img-fluid d-block" id="imgl">
+          <div class="carousel-item">
+            <img src="Img/plaza2.jpg" class="d-block w-100" alt="Cortile interno" height="600px">
           </div>
-          <div class="col-md-3">
-            <img src="Img/myconian3.jpg" alt="Immagine 3" class="img-fluid d-block" id="imgl">
+          <div class="carousel-item">
+            <img src="Img/plaza3.jpg" class="d-block w-100" alt="Visuale della Torre Eiffel" height="600px">
           </div>
-          <div class="col-md-3">
-            <img src="Img/myconian4.jpg" alt="Immagine 4" class="img-fluid d-block" id="imgl">
-          </div>
+          <div class="carousel-item active">
+            <img src="Img/plaza4.jpg" class="d-block w-100" alt="Interni" height="600px">
         </div>
-      </div>
+    </div>
+    </main>
     
-    <p>Sulla prestigiosa Avenue Montaigne a Parigi, l'Hôtel Plaza Athénée occupa un palazzo di lusso con una spa Dior Institute, 5 ristoranti, un cocktail bar e una pista di pattinaggio sul ghiaccio stagionale. Offre sistemazioni eleganti con bagni in marmo, a 5 minuti a piedi dall'Avenue Champs Elysées. Apprezzerete servizi gratuiti come l’accesso WiFi e la spa.</p>
-    <p>In tutte le camere e le suite dell'Hôtel Plaza Athénée Paris troverete una TV al plasma con oltre 200 film on demand. Potrete scegliere tra 80 bevande per il minibar personalizzato e 5 tipi di cuscini per un sonno ristoratore. In qualità di ospiti avrete modo di accedere al centro benessere gratuitamente. Alcune unità regalano una vista sulla Torre Eiffel.</p>
-    <p>La cucina dell'Hôtel Plaza Athénée comprende una colazione americana, piatti gastronomici francesi e un menù estivo.</p>
-    <p>La stazione della metropolitana Alma Marceau sorge a 300 metri, mentre la Torre Eiffel è raggiungibile in 15 minuti a piedi dall'hotel.</p>
+    <div class="bg">
+      <p id="p1">Sulla prestigiosa Avenue Montaigne a Parigi, l'Hôtel Plaza Athénée occupa un palazzo di lusso con una spa Dior Institute, 5 ristoranti, un cocktail bar e una pista di pattinaggio sul ghiaccio stagionale. Offre sistemazioni eleganti con bagni in marmo, a 5 minuti a piedi dall'Avenue Champs Elysées. Apprezzerete servizi gratuiti come l’accesso WiFi e la spa.</p>
+      <p>In tutte le camere e le suite dell'Hôtel Plaza Athénée Paris troverete una TV al plasma con oltre 200 film on demand. Potrete scegliere tra 80 bevande per il minibar personalizzato e 5 tipi di cuscini per un sonno ristoratore. In qualità di ospiti avrete modo di accedere al centro benessere gratuitamente. Alcune unità regalano una vista sulla Torre Eiffel.</p>
+      <p>La cucina dell'Hôtel Plaza Athénée comprende una colazione americana, piatti gastronomici francesi e un menù estivo.</p>
+      <p id="p4">La stazione della metropolitana Alma Marceau sorge a 300 metri, mentre la Torre Eiffel è raggiungibile in 15 minuti a piedi dall'hotel.</p>
+    </div>
+
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10498.316528115092!2d2.2956189697753904!3d48.86623540000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fca87aedf91%3A0xa6df537792efd47b!2zSMO0dGVsIFBsYXphIEF0aMOpbsOpZQ!5e0!3m2!1sit!2sit!4v1678827413128!5m2!1sit!2sit" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="top-footer">
+        <div class="left-side">
+            <p>Sei interessato e hai bisogno di contattarci?</p>
+            <div class="item-container">
+            <div class="item">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>Prenota una consulenza &RightArrow;</span>
+            </div>
+            <div class="item"> 
+                <i class="fa-solid fa-handshake"></i>
+                <span>Vieni a trovarci in agenzia &RightArrow;</span>
+            </div>
+            <div class="item">
+                <i class="fa-solid fa-phone"></i>
+                <span>contattaci &RightArrow;</span>
+            </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div id="contatti">
+            <p>Chiamaci dal Lunedì alla domenica, se avremo voglia ti risponderemo... oppure no</p>
+            
+            <span>3333333333</span>
+            </div>
+        </div>
+        </div>
+        <div class="sub-footer">
+        <div class="testo-sub">
+        <span>Perché scegliere Vacanza.com?</span>
+        </div>
+        <div class="container-sub-footer">
+            <div class="item-sub">
+            <i class="fa-sharp fa-solid fa-euro-sign"></i>
+            <span>Risparmi </span>
+            </div>
+
+            <div class="item-sub">
+            <i class="fa-sharp fa-solid fa-comments"></i>
+            <span>Assistenza 24/7 </span>
+            </div>
+            
+            <div class="item-sub">
+            <i class="fa-solid fa-sack-dollar"></i>
+            <span> 100% soddisfatti o soddisfatti </span>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="bootstrap.bundle.js"></script>
+
 </body>
 </html>

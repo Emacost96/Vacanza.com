@@ -67,3 +67,20 @@ li{
 .fa-solid{
     margin-right: 10px;
 }
+
+.sezione3 img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.sezione3 .card-text{ 
+    height: 200px;
+
+}
+
+.sezione3 a{
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    width: 150px;
+}
