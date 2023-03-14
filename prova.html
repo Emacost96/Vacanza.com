@@ -11,6 +11,9 @@
     <script src="https://kit.fontawesome.com/c73e42895f.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+      </style>      
     <link rel="stylesheet" href="stile-condiviso.css">
     <link rel="stylesheet" href="style-carosello.css">
     <link rel="stylesheet" href="style-prova.css">
@@ -27,13 +30,14 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="destinazioni.html">Destinazioni</a>
-          <a class="nav-link" href="#">Last minute</a>
+          <a class="nav-link" href="#destiinazioni">Destinazioni</a>
+          <a class="nav-link" href="#promozioni">Promozioni</a>
           <a class="nav-link" href="#">Villaggi</a>
-          <a class="nav-link" href="#">Offerte</a>
+          <a class="nav-link" href="#hotel">Offerte</a>
         </div>
       </div>
     </div>
+    <!-- login  -->
     <div class="utente">
       <a href="log-in.html">
       <i class="fa-sharp fa-solid fa-bars"></i>
@@ -48,12 +52,24 @@
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="Img/spiaggia-rosa.jpg" class="d-block w-100" alt="...">
+          <div class="testo">
+            <h2>Come risparmiare per le tue vacanze?</h2>
+            <p>Arrangiati!</p>
+          </div>
+        <img src="Img/spiaggia-rosa.jpg" class="d-block w-100" alt="...">  
         </div>
         <div class="carousel-item">
+          <div class="testo">
+            <h2>La meta preferita per chi vuole risparmiare?</h2>
+            <p>Stare a casa!</p>
+          </div>
           <img src="/Img/relitto.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
+          <div class="testo">
+            <h2>Ti piace quello che vedi?</h2>
+            <p>Noi non possiamo offrirtelo!</p>
+          </div>
           <img src="/Img/occhiali-sabbia.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
@@ -79,8 +95,8 @@
 
 
 <!-- sezione 1 -->
-  <section class="sezione1">
-    <h2 class="cardtitle">Scegli la tua destinazione</h2> <br>
+  <section class="sezione1" id="destinazioni">
+    <h2 class="cardtitle">"Scegli" la tua destinazione</h2>
       <div class="row row-cols-1  row-cols-md-2 row-cols-lg-3 g-4" class="mydivcards">
           <div class="col" class="contenitorecard">
               <div class="card h-100">
@@ -116,18 +132,8 @@
   </section>
 
   <!-- sezione 2 -->
-  <section class="sezione2">
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-6">.col-6</div>
-        <div class="col-6">.col-6</div>
-      </div>
-
-    <div class="row">
-      <div class="col-6">.col-6</div>
-      <div class="col-6">.col-6</div>
-    </div>
-  </div> -->
+  <section class="sezione2" id="promozioni">
+  <h2>Promozioni</h2>
   <div class="container-quadrato">
     <div class="quadrato pasqua">
       <div class="card etichetta" style="width: 18rem;">

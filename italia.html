@@ -11,8 +11,12 @@
     <script src="https://kit.fontawesome.com/c73e42895f.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+      </style>  
     <link rel="stylesheet" href="stile-condiviso.css">
     <link rel="stylesheet" href="style-mete.css">
+    <link rel="stylesheet" href="style-carosello.css">
     <title>Italia</title>
 </head>
 <body>
@@ -25,25 +29,39 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="destinazioni.html">Destinazioni</a>
-          <a class="nav-link" href="#">Last minute</a>
+          <a class="nav-link" href="/prova.html">Destinazioni</a>
+          <a class="nav-link" href="/prova.html">Promozioni</a>
           <a class="nav-link" href="#">Villaggi</a>
           <a class="nav-link" href="#">Offerte</a>
         </div>
       </div>
     </div>
-    <div class="utente">
-        <i class="fa-sharp fa-solid fa-bars"></i>
-        <i class="fa-solid fa-user"></i>
-    </div>
+   <!-- login  -->
+   <div class="utente">
+    <a href="log-in.html">
+    <i class="fa-sharp fa-solid fa-bars"></i>
+    <i class="fa-solid fa-user"></i>
+    </a>
+
+  </div>
   </nav>
 
 <main>
-    <img src="/Img/relitto.jpg" alt="" class="imtop">
+
+<!-- carosello mutilato -->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="testo">
+          <h2>Scopri l'italia</h2>
+        </div>
+      <img src="Img/spiaggia-rosa.jpg" class="d-block w-100" alt="...">  
+      </div>
+    </div>
+  </div> 
 
     <!-- sezione1  -->
     <div class="sezione1">
-        <h1>SCOPRI L'ITALIA</h1>
         <p>L’Italia è sicuramente una delle mete turistiche preferite dalle persone di tutto il mondo, ciò grazie alle   splendide opere d’arte e all’immensa storia che la circonda. In ogni regione, città, via e piazza, c’è un pezzo di storia ed è strabiliante vedere quanta arte c’è anche in un piccolo e semplice paesino.</p>
         <p>Recentemente è stato stimato che il 75% del patrimonio artistico mondiale ,si trovi nei musei italiani .</p>
     </div>
@@ -59,62 +77,99 @@
     </div>
 
     <!-- sezione 3 -->
-    <div class="sezione3" id="sez3">
-      <h3>Le nostre proposte di hotel migliori</h3>
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="Img/drink.png" class="img-fluid rounded-start" alt="..."> <!-- immagine hotel luca -->
-          </div>
-          <div class="col-md-8">
+    <section class="sezione3" id="sez3">
+      <h3>Le nostre proposte</h3>
+      <div class="container">
+        
+        <div class="colonna hotel">
+          <h4>I nostri hotel</h4>
+          <!-- card 1  -->
+          <div class="card" style="width: 25rem;">
+            <img src="/Img/mirasole1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Hotel Mirasole International</h5>
-                <ul>
-                  <li><i class="fa-solid fa-spa"></i>Spa & centro benessere</li>
-                  <li><i class="fa-solid fa-wheelchair"></i> Camere/strutture per ospiti disabili</li>
-                  <li><i class="fa-solid fa-wifi"></i> Connessione WiFi gratuita</li>
-                  <li><i class="fa-solid fa-bell-concierge"></i> Servizio in camera</li>
-                  <li><i class="fa-solid fa-utensils"></i> Ristorante</li>
-                  <li><i class="fa-solid fa-dumbbell"></i> Palestra</li>
-                </ul>
-              <a href="destinazionigaeta.html"><button type="button" class="btn btn-info button3">Info</button></a>
+              <h5 class="card-title">Hotel Mirasole International (principale)</h5>
+              <p class="card-text">Caratterizzate da arredi in stile classico, le sistemazioni includono connessione WiFi gratuita, bagno privato con asciugacapelli e alcune si affacciano sul giardino, sul Parco regionale urbano Monte Orlando o sulla zona della piscina.
+              <br><a href="destinazionigaeta.html" class="btn btn-primary">Info</a></p>
+            </div>
+          </div>
+          
+          <!-- card 2  -->
+          <div class="card" style="width: 25rem;">
+            <img src="Img/myconian3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Searesort Myconian Imperial</h5>
+              <p class="card-text">Uno degli hotel più suggestivi di Mykonos, membro della prestigiosa catena Leading Hotels of the World
+              <br><a href="destinazionigrecia.html" class="btn btn-primary">Info</a></p>
+            </div>
+          </div>
+
+          <!-- card 3  -->
+          <div class="card" style="width: 25rem;">
+            <img src="/Img/cardplaza3" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hôtel Plaza Athénée</h5>
+              <p class="card-text">Sulla prestigiosa Avenue Montaigne a Parigi, l'Hôtel Plaza Athénée occupa un palazzo di lusso con una spa Dior Institute.
+              <br><a href="destinazionifrancia.html" class="btn btn-primary">Info</a></p>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="Img/drink.png" class="img-fluid rounded-start" alt="..."> <!-- immagine hotel luca -->
-          </div>
-          <div class="col-md-8">
+              
+        
+        <div class="colonna villaggi">
+          <h4>I nostri villaggi</h4>
+          <!-- card 1  -->
+          <div class="card" style="width: 25rem;">
+            <img src="/Img/castellana.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Altro bellissimo Hotel Luca (è sempre lo stesso)</h5>
-              <p class="card-text">cliccate sul bottone per andare al meraviglioso hotel di Luca</p>
-              <a href="destinazionigaeta.html"><button type="button" class="btn btn-info button3">Info</button></a>
+              <h5 class="card-title">La Castellana Redidence</h5>
+              <p class="card-text">La Castellana Residence Club sorge sulla costa tirrenica della Calabria, a picco sul mare, a 650 metri dalla spiaggia di sabbia e ghiaia.
+              <br><a href="..." class="btn btn-primary">Info</a></p>
             </div>
           </div>
         </div>
-      </div>
+          <!-- card 2  -->
 
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="Img/drink.png" class="img-fluid rounded-start" alt="..."> <!-- immagine hotel luca -->
-          </div>
-          <div class="col-md-8">
+          <!-- card 3  -->
+
+        
+        <div class="colonna escursioni">
+          <h4>Le nostre escursioni</h4>
+          <!-- card 1  -->
+          <div class="card" style="width: 25rem;">
+            <img src="/Img/vecchio-suicida.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Sei sicuro di voler andare in un altro hotel?</h5>
-              <p class="card-text">cliccate sul bottone per andare al meraviglioso hotel di Luca</p>
-              <a href="destinazionigaeta.html"><button type="button" class="btn btn-info button3">Info</button></a>
+              <h5 class="card-title">Treking nella Sardegna selvaggia</h5>
+              <p class="card-text">Il Selvaggio Blu è il trekking più famoso, uno dei più impegnativi d'Europa, un'escursione di sette giorni che prevede parti di arrampicata e ferrata
+              <br><a href="..." class="btn btn-primary">Info</a></p>
             </div>
           </div>
+
+          <!-- card 2  -->
+
+          <!-- card 3  -->
+
         </div>
       </div>
-
     </div>
+      
+              <!-- <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Hotel Mirasole International</h5>
+                    <ul>
+                      <li><i class="fa-solid fa-spa"></i>Spa & centro benessere</li>
+                      <li><i class="fa-solid fa-wheelchair"></i> Camere/strutture per ospiti disabili</li>
+                      <li><i class="fa-solid fa-wifi"></i> Connessione WiFi gratuita</li>
+                      <li><i class="fa-solid fa-bell-concierge"></i> Servizio in camera</li>
+                      <li><i class="fa-solid fa-utensils"></i> Ristorante</li>
+                      <li><i class="fa-solid fa-dumbbell"></i> Palestra</li>
+                    </ul>
+                  <a href="destinazionigaeta.html"><button type="button" class="btn btn-info button3">Info</button></a>
+                </div>
+              </div> -->
+        
 
+           
+    </section>
 </main>
 <!-- footer -->
 <footer>

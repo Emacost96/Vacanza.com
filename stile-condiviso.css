@@ -135,6 +135,17 @@ footer .top-footer{
     
 }
 
+@media screen and (max-width:1160px) {
+    .sub-footer .container-sub-footer .item-sub {
+        font-size: 1rem;
+    }
+    .testo-sub{
+        font-size: 1.3rem; 
+}
+}
+
+
+
 @media screen and (max-width:991px) {
     .utente{
         display: none;
@@ -172,3 +183,4 @@ footer .top-footer{
 
     
 }
+

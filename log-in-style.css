@@ -70,6 +70,6 @@
     color: aliceblue;
 }
 
-.log-in label input{
-   
+#submit{
+    background: rgb(195, 225, 249);
 }

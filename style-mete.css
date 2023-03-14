@@ -20,6 +20,7 @@ h1{
     margin-top: 5%;
 }
 
+
 .sezione2 p{
     text-align: center;
     
@@ -33,13 +34,36 @@ h1{
     margin: 2%;
 }
 
+h3{
+    text-align: center;
+}
+
 .sezione3{
     width: 80%;
     margin: auto;
     margin-top: 5%;
+
 }
-.button3{
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.colonna {
+    margin: 20px;
+}
+
+.card{
+    margin-bottom: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+.fa-solid{
+    margin-right: 10px;
 }
