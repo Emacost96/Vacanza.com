@@ -20,7 +20,7 @@ main .box-form{
     line-height: 100px;
     font-size:1.5rem;
     color: lightgray;
-    z-index: 9999;
+    z-index: 1;
 
 
 }
@@ -70,6 +70,7 @@ main .box-form:active{
 
 .sezione1{
     width: 80%;
+    max-width: 1800px;
     margin: auto;
 
 }
@@ -99,6 +100,7 @@ main .box-form:active{
 .container-quadrato{   
     height: auto;
     width: 80%;
+    max-width: 1800px;
     margin: 5% auto;
     /* background: red; */
     display: grid;

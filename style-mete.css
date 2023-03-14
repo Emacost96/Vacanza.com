@@ -20,7 +20,8 @@ h1{
     margin-top: 5%;
 }
 
-.sezione2 img{
+.sezione2 p{
+    text-align: center;
     
 }
 
@@ -30,4 +31,15 @@ h1{
 
 .sezione1 p{
     margin: 2%;
+}
+
+.sezione3{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+.button3{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Mirasole International</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="Style/style-destinazioni.css">
+  <script src="https://kit.fontawesome.com/ad59da1c36.js" crossorigin="anonymous"></script>
+  <script> var imgl=document.getElementById("imgl");
+    imgl.onclick=function(){
+      imgl.classList.toggle("zoom");
+    };
+  </script>
+</head>
+<body>
+    <h1>Searesort Myconian Imperial</h1>
+
+    <h4>Mykonos - Elia</h4>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5><i class="fa-solid fa-spa"></i> Spa & centro benessere</h5>
+            <h5><i class="fa-solid fa-water-ladder"></i> Piscina</h5>
+          </div>
+          <div class="col-md-4">
+            <h5><i class="fa-solid fa-wifi"></i> Connessione WiFi gratuita</h5>
+            <h5><i class="fa-solid fa-store"></i> Negozi</h5>
+          </div>
+          <div class="col-md-4">
+            <h5><i class="fa-solid fa-mug-saucer"></i> Prima colazione</h5>
+            <h5><i class="fa-solid fa-dumbbell"></i> Palestra</h5>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <h3>Prenota il tuo soggiorno</h3>
+        <form>
+        <div class="form-group">
+            <label for="data_arrivo">Data di arrivo:</label>
+            <input type="date" class="form-control" id="data_arrivo">
+        </div>
+        <div class="form-group">
+            <label for="data_partenza">Data di partenza:</label>
+            <input type="date" class="form-control" id="data_partenza">
+        </div>
+        <div class="form-group">
+            <label for="numero_ospiti">Numero di ospiti:</label>
+            <select class="form-control" id="numero_ospiti">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Prenota</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNVQ8vc" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="Img/myconian1.jpg" alt="Immagine 1" class="img-fluid d-block" id="imgl">
+          </div>
+          <div class="col-md-3">
+            <img src="Img/myconian2.jpg" alt="Immagine 2" class="img-fluid d-block" id="imgl">
+          </div>
+          <div class="col-md-3">
+            <img src="Img/myconian3.jpg" alt="Immagine 3" class="img-fluid d-block" id="imgl">
+          </div>
+          <div class="col-md-3">
+            <img src="Img/myconian4.jpg" alt="Immagine 4" class="img-fluid d-block" id="imgl">
+          </div>
+        </div>
+      </div>
+    
+    <p>Uno degli hotel più suggestivi di Mykonos, membro della prestigiosa catena Leading Hotels of the World, e la frase “ogni hotel è unico e tutti sono eccezionali” ne esprime completamente la filosofia; elevati standard di qualità, ospitalità straordinaria, arricchiti da una posizione tra le più suggestive dell’isola, rilassante e panoramica, con la sua vista mozzafiato sulla meravigliosa spiaggia di sabbia di Elia. Una struttura lussuosa e maestosamente bianca, con elementi naturali che si fondono in un’atmosfera di pregio.</p>
+    <p>La sua ampia terrazza vista mare ospita la bella e moderna piscina di acqua salata, con idromassaggio, dove lasciarsi trasportare dal sole caldo di Mykonos e dalla rilassante atmosfera, coccolati dalla bellezza del Mar Egeo; i teli mare, i lettini e gli ombrelloni sono disponibili gratuitamente sia in piscina che nella zona dedicata alle strutture Myconian Collection sulla spiaggia di Elia (fino a esaurimento). L’aeroporto e la città di Mykonos distano circa 12 km.</p>
+</body>
+</html>

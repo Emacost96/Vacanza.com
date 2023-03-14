@@ -1,0 +1,10 @@
+h1{text-align: center; padding-top: 50px; padding-bottom: 20px;}
+h4{text-align: center; padding-bottom: 50px;}
+h5{text-align: center;}
+p{width : 50%;
+    margin : 20px auto;}
+
+div.container{padding-top: 50px; padding-bottom: 50px;}
+
+#imgl{width: 200px; height: auto; cursor: pointer;}
+#imgl.zoom{width: 400px;}
