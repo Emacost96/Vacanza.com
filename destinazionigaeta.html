@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style-destinazioni.css">
   <link rel="stylesheet" href="stile-condiviso.css">
+  <link rel="stylesheet" href="style-prova.css">
   <script src="https://kit.fontawesome.com/ad59da1c36.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -37,133 +38,141 @@
     </div>
   </nav>
 
-    <h1>Hotel Mirasole International</h1>
+  <h1>Hotel Mirasole International</h1>
 
-    <h4>Latina (Provincia) - Gaeta</h4>
+  <h4>Latina (Provincia) - Gaeta</h4>
 
-    <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h5><i class="fa-solid fa-spa"></i> Spa & centro benessere</h5>
-            <h5><i class="fa-solid fa-wheelchair"></i> Camere/strutture per ospiti disabili</h5>
-          </div>
-          <div class="col-md-4">
-            <h5><i class="fa-solid fa-wifi"></i> Connessione WiFi gratuita</h5>
-            <h5><i class="fa-solid fa-bell-concierge"></i> Servizio in camera</h5>
-          </div>
-          <div class="col-md-4">
-            <h5><i class="fa-solid fa-utensils"></i> Ristorante</h5>
-            <h5><i class="fa-solid fa-dumbbell"></i> Palestra</h5>
-          </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5><i class="fa-solid fa-spa"></i> Spa & centro benessere</h5>
+        <h5><i class="fa-solid fa-wheelchair"></i> Camere/strutture per ospiti disabili</h5>
       </div>
+      <div class="col-md-4">
+        <h5><i class="fa-solid fa-wifi"></i> Connessione WiFi gratuita</h5>
+        <h5><i class="fa-solid fa-bell-concierge"></i> Servizio in camera</h5>
+      </div>
+      <div class="col-md-4">
+        <h5><i class="fa-solid fa-utensils"></i> Ristorante</h5>
+        <h5><i class="fa-solid fa-dumbbell"></i> Palestra</h5>
+      </div>
+    </div>
+  </div>
 
-    <main>
+  <main>
+    
+  <div id="carouselAutoDes" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Img/mirasole1.jpg" class="d-block w-100" alt="Facciata dell'Hotel" height="600px">
+      </div>
+      <div class="carousel-item">
+        <img src="Img/mirasole2.jpg" class="d-block w-100" alt="Visuale della piscina" height="600px">
+      </div>
+      <div class="carousel-item">
+        <img src="Img/mirasole3.jpg" class="d-block w-100" alt="Affaccio sulla spiaggia" height="600px">
+      </div>
+      <div class="carousel-item active">
+        <img src="Img/mirasole4.jpg" class="d-block w-100" alt="Panoramica di Serapo" height="600px">
+    </div>
+  </div>
+
+  </main>  
+
+  <div class="principale">
+
+    <div class="des">
+      <p id="p1">L'Hotel Mirasole di Gaeta, circondato da un giardino di 2.000 m² con piscina estiva, dista 150 metri dalla spiaggia e offre camere climatizzate con TV a schermo piatto e balcone.</p>
+      <p>Caratterizzate da arredi in stile classico, le sistemazioni includono connessione WiFi gratuita, bagno privato con asciugacapelli e alcune si affacciano sul giardino, sul Parco regionale urbano Monte Orlando o sulla zona della piscina.</p>
+      <p>Godrete di terrazza solarium con lettini, giardino attrezzato con gazebo, tavoli e sedie e dell'assistenza della reception 24 ore su 24.</p>
+      <p id="p4">L'Hotel Mirasole International vi attende a 500 metri dal Parco regionale urbano Monte Orlando e a 6 km da Formia, da cui partono i traghetti diretti alle Isole Pontine.</p>
+    </div>
+
     <div class="containerDes">
-        <h3>Prenota il tuo soggiorno</h3>
-        <form>
+      <h3>Prenota il tuo soggiorno</h3>
+      <form>
         <div class="form-group">
-            <label for="data_arrivo">Data di arrivo:</label>
+          <label for="data_arrivo">Data di arrivo:</label>
             <input type="date" class="form-control" id="data_arrivo">
         </div>
         <div class="form-group">
-            <label for="data_partenza">Data di partenza:</label>
+          <label for="data_partenza">Data di partenza:</label>
             <input type="date" class="form-control" id="data_partenza">
         </div>
         <div class="form-group">
-            <label for="numero_ospiti">Numero di ospiti:</label>
+          <label for="numero_ospiti">Numero di ospiti:</label>
             <select class="form-control" id="numero_ospiti">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
             </select>
         </div>
         <button type="submit" class="btn btn-primary">Prenota</button>
-        </form>
+      </form>
     </div>
+  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNVQ8vc" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-    <div id="carouselAutoDes" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Img/mirasole1.jpg" class="d-block w-100" alt="Facciata dell'Hotel" height="600px">
-          </div>
-          <div class="carousel-item">
-            <img src="Img/mirasole2.jpg" class="d-block w-100" alt="Visuale della piscina" height="600px">
-          </div>
-          <div class="carousel-item">
-            <img src="Img/mirasole3.jpg" class="d-block w-100" alt="Affaccio sulla spiaggia" height="600px">
-          </div>
-          <div class="carousel-item active">
-            <img src="Img/mirasole4.jpg" class="d-block w-100" alt="Panoramica di Serapo" height="600px">
-        </div>
-    </div>
-    </main>
     
-    <p id="p1">L'Hotel Mirasole di Gaeta, circondato da un giardino di 2.000 m² con piscina estiva, dista 150 metri dalla spiaggia e offre camere climatizzate con TV a schermo piatto e balcone.</p>
-    <p>Caratterizzate da arredi in stile classico, le sistemazioni includono connessione WiFi gratuita, bagno privato con asciugacapelli e alcune si affacciano sul giardino, sul Parco regionale urbano Monte Orlando o sulla zona della piscina.</p>
-    <p>Godrete di terrazza solarium con lettini, giardino attrezzato con gazebo, tavoli e sedie e dell'assistenza della reception 24 ore su 24.</p>
-    <p id="p4">L'Hotel Mirasole International vi attende a 500 metri dal Parco regionale urbano Monte Orlando e a 6 km da Formia, da cui partono i traghetti diretti alle Isole Pontine.</p>
-
     <div id="map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d750.3814096509466!2d13.571329275005024!3d41.210314363917846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133ad36b6e8e8bc3%3A0x4da9813f08219bc3!2sHotel%20Mirasole%20International!5e0!3m2!1sit!2sit!4v1678802457184!5m2!1sit!2sit" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+  </div>
 
-    <!-- footer -->
-    <footer>
-        <div class="top-footer">
-        <div class="left-side">
-            <p>Sei interessato e hai bisogno di contattarci?</p>
-            <div class="item-container">
-            <div class="item">
-                <i class="fa-solid fa-calendar-days"></i>
-                <span>Prenota una consulenza &RightArrow;</span>
-            </div>
-            <div class="item"> 
-                <i class="fa-solid fa-handshake"></i>
-                <span>Vieni a trovarci in agenzia &RightArrow;</span>
-            </div>
-            <div class="item">
-                <i class="fa-solid fa-phone"></i>
-                <span>contattaci &RightArrow;</span>
-            </div>
-            </div>
+  <!-- footer -->
+  <footer>
+    <div class="top-footer">
+      <div class="left-side">
+        <p>Sei interessato e hai bisogno di contattarci?</p>
+        <div class="item-container">
+          <div class="item">
+            <i class="fa-solid fa-calendar-days"></i>
+            <span>Prenota una consulenza &RightArrow;</span>
+          </div>
+          <div class="item"> 
+            <i class="fa-solid fa-handshake"></i>
+            <span>Vieni a trovarci in agenzia &RightArrow;</span>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-phone"></i>
+            <span>contattaci &RightArrow;</span>
+          </div>
         </div>
-        <div class="right-side">
-            <div id="contatti">
-            <p>Chiamaci dal Lunedì alla domenica, se avremo voglia ti risponderemo... oppure no</p>
+      </div>
+      <div class="right-side">
+        <div id="contatti">
+          <p>Chiamaci dal Lunedì alla domenica, se avremo voglia ti risponderemo... oppure no</p>
             
-            <span>3333333333</span>
-            </div>
+          <span>3333333333</span>
         </div>
-        </div>
-        <div class="sub-footer">
-        <div class="testo-sub">
+      </div>
+    </div>
+    <div class="sub-footer">
+      <div class="testo-sub">
         <span>Perché scegliere Vacanza.com?</span>
+      </div>
+      <div class="container-sub-footer">
+        <div class="item-sub">
+          <i class="fa-sharp fa-solid fa-euro-sign"></i>
+          <span>Risparmi </span>
         </div>
-        <div class="container-sub-footer">
-            <div class="item-sub">
-            <i class="fa-sharp fa-solid fa-euro-sign"></i>
-            <span>Risparmi </span>
-            </div>
 
-            <div class="item-sub">
-            <i class="fa-sharp fa-solid fa-comments"></i>
-            <span>Assistenza 24/7 </span>
-            </div>
+        <div class="item-sub">
+          <i class="fa-sharp fa-solid fa-comments"></i>
+          <span>Assistenza 24/7 </span>
+        </div>
             
-            <div class="item-sub">
-            <i class="fa-solid fa-sack-dollar"></i>
-            <span> 100% soddisfatti o soddisfatti </span>
-            </div>
+        <div class="item-sub">
+          <i class="fa-solid fa-sack-dollar"></i>
+          <span> 100% soddisfatti o soddisfatti </span>
         </div>
-        </div>
-    </footer>
-    <script src="bootstrap.bundle.js"></script>
+      </div>
+    </div>
+  </footer>
+  <script src="bootstrap.bundle.js"></script>
 
 </body>
 </html>

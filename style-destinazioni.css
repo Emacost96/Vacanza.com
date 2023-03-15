@@ -11,13 +11,24 @@ div.containerDes{
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
+    width: 50%;
+    height: 100px;
+}
+
+div.des{
+    width: 50%;
+    height: 100px;
 }
 
 div.carousel{
-    max-height: 600px;
-    max-width: 1000px;
+    max-height: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+div.bg{
+    background-color: #fdfaf4;
 }
 
 a{ 
@@ -25,5 +36,14 @@ a{
 }
 
 #map{
+    width: 100%;
     margin: 0 auto;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+div.principale{
+    display: flex;
+    flex-wrap: wrap;
 }

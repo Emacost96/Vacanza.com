@@ -101,18 +101,30 @@ footer .top-footer{
 
 .sub-footer{
     background-color: #2e3133 ;
-}
+    padding-bottom: 2rem;
+    padding-top:2rem ;
+    display: flex;
+    justify-content:space-evenly;
+    }
+
 
 .sub-footer>span{
     font-size: 2rem;
     color:  #fdfeff;
+    
 
+}
+
+.left{
+    border-right: 1px solid grey;
+    padding-top: 30px;
 }
 .container-sub-footer{
     width: 80%;
     margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    border-left: 1px solid white;
+    
+   
 
 
 }
@@ -131,14 +143,39 @@ footer .top-footer{
     width: fit-content;
     height: fit-content;
     font-size: 1.2rem;
-    border-left: 4px solid #fdfeff;
-    padding: 1rem;
-    border-radius: 20px;
+    padding-left: 1rem;
     margin: 1rem 0;
     color:  #fdfeff;
     
 }
 
+.right{
+    color: #fdfeff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.right h3{
+    padding-left: 1rem;
+}
+
+.right span{
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    color:  #fdfeff;
+    
+}
+
+.contatti{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    border-left: 1px solid white;
+    margin-top: 2px;
+    
+}
 @media screen and (max-width:1160px) {
     .sub-footer .container-sub-footer .item-sub {
         font-size: 1rem;
@@ -201,5 +238,14 @@ footer .top-footer{
 }
     .arrow{
         display: none;
+    }
+
+    .right{
+        display: none;
+        flex-direction: column;
+        justify-self: center;
+        border-left: 1px solid white;
+        margin-top: 2px;
+        
     }
 }
