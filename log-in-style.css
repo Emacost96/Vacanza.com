@@ -73,3 +73,13 @@
 #submit{
     background: rgb(195, 225, 249);
 }
+
+span > a{
+    color: rgb(150, 206, 255);
+    text-decoration: none;
+}
+
+span{
+    color: aliceblue;
+    text-decoration: none;
+}

@@ -5,6 +5,10 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.navbar-brand{
+    margin-left: 10%;
+}
+
 body{
     height: 100%;
     min-height: 100vh;
@@ -33,7 +37,7 @@ nav .navbar-brand{
 }
 
 .utente{
-    margin-right: 10px;
+    margin-right: 10%;
 }
 
 
